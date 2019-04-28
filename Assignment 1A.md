@@ -10,3 +10,6 @@ Similarly vertical edge detector/kernal [-1,0,1],[-1,0,1],[-1,0,1]], detects ver
 
 Lets review same way blur kernal, simple way to achieve blur is by doing simple average with all other 8 neighboring pixels, here is couple of examples, [0.111,0.111,0.111],[0.111,0.111,0.111],[0.111,0.111,0.111] and [[0.0625,0.125,0.0625],[0.125,0.25,0.125],[0.0625,0.125,0.0625]].
 There has been lot of research done on edge detectors, one can find better performing kernals like laplacian and Gaussian. 
+In similar lines sharpen filter [0,-1,0],[-1,5,-1],[0,-1,0]] works by sharpening the image comparing its local neighbors.
+
+In Neural network usually these kernals are assigned randomly and network adjusts the kernals with each input training and back-propagation. It is quite fascinating to know that in NN initial layers find edges and later layers combine the edges to form part/whole image.

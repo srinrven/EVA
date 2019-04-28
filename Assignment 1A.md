@@ -11,5 +11,6 @@ Similarly vertical edge detector/kernal [-1,0,1],[-1,0,1],[-1,0,1]], detects ver
 Lets review same way blur kernal, simple way to achieve blur is by doing simple average with all other 8 neighboring pixels, here is couple of examples, [0.111,0.111,0.111],[0.111,0.111,0.111],[0.111,0.111,0.111] and [[0.0625,0.125,0.0625],[0.125,0.25,0.125],[0.0625,0.125,0.0625]].
 There has been lot of research done on edge detectors, one can find better performing kernals like laplacian and Gaussian. 
 In similar lines sharpen filter [0,-1,0],[-1,5,-1],[0,-1,0]] works by sharpening the image comparing its local neighbors.
+Identity kernal does not transform the input image, in other input and out put images are same. Lets take a look at kernal, it nullifies the impact of neighbors when convolve and keeps the value of the pix as is at the center. [[0,0,0],[0,1,0],[0,0,0]], this is same as mathematical identity function, f(x) = x.
 
 In Neural network usually these kernals are assigned randomly and network adjusts the kernals with each input training and back-propagation. It is quite fascinating to know that in NN initial layers find edges and later layers combine the edges to form part/whole image.

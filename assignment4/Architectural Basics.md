@@ -107,6 +107,8 @@
 11. **How do we know our network is not going well, comparatively, very early**
 
 12. **Batch Size, and effects of batch size**
+Batch size, is number of training samples, network/model will use in order to make update to model parameters/weights. Back propagation kicks once per batch, it will averages out the impact of all samples in a batch and  applies weights modification. So batch size place important role in time taken to get better performance. 
+Optimal batch size will achieves the performance in lesser time. 
 
 13. **When to add validation checks**
 

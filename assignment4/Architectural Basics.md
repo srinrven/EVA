@@ -99,6 +99,8 @@
 7. **When do we introduce DropOut, or when do we know we have some overfitting**
 
 8. **The distance of MaxPooling from Prediction**
+Maxpooling reduces the dimension of the Chanel which is very useful in reducing parameters and improving performance. But Maxpooling should be avoided using just before prediction layers. Last layers are important for better prediction, if Maxpool is used towards end of network layer it might end up in not forwarding the features to next layers.
+Ideally Maxpool to be avoided in last 3 to 4 layers before prediction. 
 
 9. **The distance of Batch Normalization from Prediction**
 

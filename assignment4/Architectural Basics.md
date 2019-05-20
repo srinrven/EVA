@@ -1,6 +1,26 @@
 **Architectural Basics**
 
+Order I consider is below.
 
+Image Normalization
+How many layers,Receptive Field
+3x3 Convolutions,Batch Normalization
+Kernels and how do we decide the number of kernels?
+1x1 Convolutions, MaxPooling
+Position of MaxPooling
+Concept of Transition Layers
+Position of Transition Layer
+The distance of MaxPooling from Prediction
+The distance of Batch Normalization from Prediction
+DropOut
+SoftMax
+Batch Size and effects of batch size
+Learning Rate, LR schedule and concept behind it,Adam vs SGD
+Number of Epochs and when to increase them
+When do we introduce DropOut or when do we know we have some overfitting
+When do we stop convolutions and go ahead with a larger kernel or some other alternative 
+How do we know our network is not going well comparatively very early
+When to add validation checks
 
 1. **How many layers**
 

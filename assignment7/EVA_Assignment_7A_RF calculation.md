@@ -1,3 +1,10 @@
+Assignment is to calculate Receptive Field and compare with paper mentioned below.
+
+https://arxiv.org/pdf/1409.4842.pdf 
+They mention on page 6, that the RF is 224x224. 
+Use the formulas above and show the calculations
+
+
 | **N-in** | **k** | **p** | **s** | **N-out** | **J-in** | **J-out** | **R-in** | **R-out** |
 | -------- | ----- | ----- | ----- | --------- | -------- | --------- | -------- | --------- |
 | 224      | 7     | 3     | 2     | 112       | 1        | 2         | 1        | 7         |
